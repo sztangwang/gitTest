@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{EE152D0B-09C4-4258-A6AD-FCD4D06A05AA}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44824.2787152778" objectName="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" objectLeft="0" objectTop="0" objectRight="1456" objectBottom="849" clickPointX="49" clickPointY="206" imageFileName="tcvi1976700062760.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44824.2787384259" objectName="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" objectLeft="0" objectTop="0" objectRight="1456" objectBottom="849" clickPointX="46" clickPointY="120" imageFileName="tcvi1976960962761.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44824.2787615741" objectName="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" objectLeft="0" objectTop="0" objectRight="1456" objectBottom="849" clickPointX="48" clickPointY="285" imageFileName="tcvi1977085962762.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44824.2787731482" objectName="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" objectLeft="0" objectTop="0" objectRight="1456" objectBottom="849" clickPointX="52" clickPointY="371" imageFileName="tcvi1977267162763.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,6 @@
+﻿import os
+def Test6():
+    
+    print("1111")
+    print (os.getcwd())#获得当前目录
+   

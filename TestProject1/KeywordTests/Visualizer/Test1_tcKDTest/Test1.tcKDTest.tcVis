@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{AFE3E84F-5D98-43A2-A57D-7C297A7F6B0C}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="44823.5471990741" objectName="Aliases.explorer.wnd_" objectLeft="0" objectTop="0" objectRight="1139" objectBottom="641" clickPointX="371" clickPointY="22" imageFileName="tcvi161918753320.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44823.5472106481" objectName="Aliases.explorer.wnd_" objectLeft="0" objectTop="0" objectRight="1139" objectBottom="641" clickPointX="371" clickPointY="22" imageFileName="tcvi161985953321.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44823.5472106481" objectName="Aliases.explorer.wnd_.UIRibbonDockTop.Ribbon.Ribbon.NUIPane.NetUIHWND" objectLeft="8" objectTop="0" objectRight="1131" objectBottom="58" clickPointX="576" clickPointY="35" imageFileName="tcvi162043753323.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44823.5472453704" objectName="Aliases.explorer.wnd_.Item.DUIViewWndClassName.Item.CtrlNotifySink.ShellView.Item.Item.C_.Item" objectLeft="491" objectTop="155" objectRight="682" objectBottom="172" clickPointX="547" clickPointY="170" imageFileName="tcvi162353153327.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

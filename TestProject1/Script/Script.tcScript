@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="test1" key="{390A16EA-91F8-45E3-B750-9E20D25F457C}" path="test1.py" />
+		<child name="test2" key="{C706CE33-3030-48B8-91A7-07583D5D0A27}" path="test2.py" />
+		<child name="test3" key="{3C36B423-F8C7-43D6-B184-47D20892CF34}" path="test3.py" />
+		<child name="test4" key="{E9E68B8F-28CF-4F7E-839E-D4732D39E9D2}" path="test4.py" />
+		<child name="test5" key="{E5DEAEA5-B2E8-4BD5-AE93-73FD5BD1D25E}" path="test5.py" />
+		<child name="test6" key="{CCC8A9C9-5668-4DD5-86DD-8F0A218A50DE}" path="test6.py" />
+		<child name="test7" key="{15131363-B70E-4BCF-893D-A4537A8F137F}" path="test7.py" />
+		<child name="TestBlue" key="{4BB96F98-DAB2-42F0-8CD3-E13AC6E29993}" path="TestBlue.py" />
+		<child name="test8" key="{BE3CB1BA-32BB-4CD0-83D2-54E6890B9364}" path="test8.py" />
+	</children>
+</Root>

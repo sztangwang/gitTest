@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{15B54C57-A38D-4B44-BB16-71B556A5213D}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Activates the &apos;%n&apos; window." Action="Activate" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="538" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="137" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="538" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="132" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="538" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="132" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{1AB38973-724B-4F09-A2A7-CB4776EC3F64}" />
+</Root>

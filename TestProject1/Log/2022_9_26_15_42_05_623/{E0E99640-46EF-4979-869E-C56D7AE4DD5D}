@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44830.6546831597"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="python.exe E:\TestProject2\TestProject1\Script\TestBlue.py&#xA;手机usb设备连接成功&#xA;启动app..........&#xA;搜索蓝牙设备:MOZA R16-398D3BA2..........&#xA;搜索蓝牙设备:MOZA R16-398D3BA2..........&#xA;搜索蓝牙设备:MOZA R16-398D3BA2..........&#xA;搜索蓝牙设备:MOZA R16-398D3BA2..........&#xA;搜索蓝牙设备:MOZA R16-398D3BA2..........&#xA;搜索蓝牙设备:MOZA R16-398D3BA2..........&#xA;搜索蓝牙设备:MOZA R16-398D3BA2..........&#xA;已找到蓝牙设备： MOZA R16-398D3BA2,根据蓝牙名称获取蓝牙连接按钮的坐标并点击........&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;等待激活设备窗口&#xA;有弹出激活菜单，点击跳过激活.......&#xA;蓝牙设备连接成功&#xA;******************正在测试 //*[@content-desc=&quot;最大限位角&#xA;最大限位角&#xA;同步转向角&#xA;90°&#xA;2000°&quot;]/android.widget.ImageView[1]&#xA;点击坐标: (333, 1218)&#xA;******************正在测试 //*[@content-desc=&quot;最大转向角&#xA;最大转向角&#xA;90°&#xA;2000°&quot;]/android.widget.ImageView[1]&#xA;点击坐标: (333, 1646)&#xA;******************正在测试 //*[@content-desc=&quot;路感灵敏度&#xA;路感灵敏度&#xA;0&#xA;10&quot;]/android.widget.ImageView[1]&#xA;点击坐标: (333, 2052)&#xA;点击断开连接......&#xA;有弹出激活菜单，点击跳过激活.......&#xA;点击断开连接......&#xA;蓝牙测试成功&#xA;&#xA;E:\TestProject2\TestProject1&gt;"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{15131363-B70E-4BCF-893D-A4537A8F137F}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44830.6542436227"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Microsoft Windows [版本 10.0.19041.208]&#xA;(c) 2020 Microsoft Corporation. 保留所有权利。&#xA;&#xA;E:\TestProject2\TestProject1&gt;"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 2">
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="date" type="D" value="44830.6546831713"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="蓝牙测试成功&#xA;"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

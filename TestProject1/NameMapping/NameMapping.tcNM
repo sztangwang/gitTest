@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{0ABE383B-CA71-43D8-BFBE-F98ED67CA27D}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="explorer" Key="{18BFD079-FBA4-43BD-846A-2F1AC7E01FC6}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wnd_" Key="{20848110-17E8-49D5-8A1E-1CE75821C9A3}">
+								<Image FileName="2017484600" Left="0" Top="0" Right="1139" Bottom="641" />
+								<TypeInfo Item0="{D3031C59-BFEA-48B7-9D59-C03471061A08}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="CabinetWClass" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="此电脑" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="UIRibbonDockTop" Key="{F0EE1119-234C-479D-B438-8C2A11D9880A}">
+										<Image FileName="618242816" Left="8" Top="31" Right="1131" Bottom="58" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="UIRibbonCommandBarDock" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="UIRibbonDockTop" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="Ribbon" Key="{37A23A93-012A-4D35-8783-E757392E1131}">
+												<Image FileName="618242816" Left="8" Top="31" Right="1131" Bottom="58" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="UIRibbonCommandBar" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Ribbon" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Ribbon" Key="{59A08BC9-423B-427E-B34F-FF20560D9176}">
+														<Image FileName="618242816" Left="8" Top="31" Right="1131" Bottom="58" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="UIRibbonWorkPane" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Ribbon" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NUIPane" Key="{BBCB1295-7811-4906-AD03-42DD7EE54ACD}">
+																<Image FileName="618242816" Left="8" Top="31" Right="1131" Bottom="89" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="NUIPane" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="NetUIHWND" Key="{C813053B-2C09-40D3-B6B3-7A7CE3965C16}">
+																		<Image FileName="618242816" Left="8" Top="0" Right="1131" Bottom="58" />
+																		<TypeInfo Item0="{E068F118-4204-42FE-BA5D-6DBCAE2BC648}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="NetUIHWND" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="Item" Key="{D9118416-3687-4BDE-A7D7-C117F06D9A62}">
+										<Image FileName="-2007180708" Left="8" Top="101" Right="1131" Bottom="633" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ShellTabWindowClass" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="DUIViewWndClassName" Key="{D29840EE-B3D1-4CAA-A70B-C25825AC3209}">
+												<Image FileName="-2007180708" Left="8" Top="101" Right="1131" Bottom="633" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="DUIViewWndClassName" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Item" Key="{4F08D81F-B12D-4D32-A3F5-F46CCCDAEBE2}">
+														<Image FileName="-2007180708" Left="8" Top="101" Right="1131" Bottom="633" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="DirectUI" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="HWNDView" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="窗格" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="浏览器窗格" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="CtrlNotifySink" Key="{98608DA8-3692-411D-8604-A17A292065AA}">
+																<Image FileName="-2007180708" Left="168" Top="101" Right="1131" Bottom="610" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value Value="CtrlNotifySink" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value Value="" />
+																	</Property>
+																	<Property Name="Index">
+																		<Value Value="5" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="ShellView" Key="{E2D7D59C-4D07-41C9-9A3B-98D7F28E891F}" ExtendedFind="True">
+																		<Image FileName="-2007180708" Left="168" Top="101" Right="891" Bottom="610" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value Value="SHELLDLL_DefView" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value Value="ShellView" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Item" Key="{CBDDEE50-6666-4202-A857-0568FC84E574}">
+																				<Image FileName="-2007180708" Left="168" Top="101" Right="891" Bottom="610" />
+																				<Properties>
+																					<Property Name="FrameworkId">
+																						<Value Value="DirectUI" />
+																					</Property>
+																					<Property Name="ClassName">
+																						<Value Value="UIItemsView" />
+																					</Property>
+																					<Property Name="LocalizedControlType">
+																						<Value Value="列表" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="项目视图" />
+																					</Property>
+																					<Property Name="ObjectGroupIndex">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="Item" Key="{B2EF5DDB-81CD-4B15-BE2A-EDC4C4A35AF0}">
+																						<Image FileName="-2007180708" Left="168" Top="107" Right="891" Bottom="256" />
+																						<Properties>
+																							<Property Name="FrameworkId">
+																								<Value Value="DirectUI" />
+																							</Property>
+																							<Property Name="ClassName">
+																								<Value Value="UIGroupItem" />
+																							</Property>
+																							<Property Name="LocalizedControlType">
+																								<Value Value="组" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="设备和驱动器" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="C_" Key="{B2AF571D-568B-4946-A205-F554FA3C5419}">
+																								<Image FileName="-2007180708" Left="436" Top="135" Right="686" Bottom="192" />
+																								<Properties>
+																									<Property Name="FrameworkId">
+																										<Value Value="DirectUI" />
+																									</Property>
+																									<Property Name="ClassName">
+																										<Value Value="UIItem" />
+																									</Property>
+																									<Property Name="LocalizedControlType">
+																										<Value Value="列表项目" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="本地磁盘_C_" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="Item" Key="{7DDCF6AA-9CB9-4AC7-9F0A-06BB0180FD48}">
+																										<Image FileName="-2007180708" Left="491" Top="155" Right="682" Bottom="172" />
+																										<TypeInfo Item0="{C7E50C0A-A9C7-48CF-9223-89115B0F4BB7}" />
+																										<Properties>
+																											<Property Name="FrameworkId">
+																												<Value Value="DirectUI" />
+																											</Property>
+																											<Property Name="ClassName">
+																												<Value Value="UIProperty" />
+																											</Property>
+																											<Property Name="LocalizedControlType">
+																												<Value Value="编辑" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="已用空间" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="MOZA_Pit_House" Key="{3A697682-AF64-49C9-9ED0-FB450EC56EB7}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="MOZA Pit House" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndQt5152QWindowOwnDCIcon" Key="{3697D180-C85B-4724-9FB8-4F7272EED3CF}">
+								<Image FileName="38260874" Left="0" Top="0" Right="1440" Bottom="810" />
+								<TypeInfo Item0="{5ED183F6-8C62-4CEB-A02D-70F6D052B424}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Qt5152QWindowOwnDCIcon" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="MOZA Pit House" />
+									</Property>
+									<Property Name="Index">
+										<Value Value="2" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="wndQt5152QWindowOwnDCIcon2" Key="{050AEA92-E26E-46E6-9B30-A16B605284A6}">
+								<Image FileName="-1386923589" Left="0" Top="0" Right="1456" Bottom="849" />
+								<TypeInfo Item0="{D3031C59-BFEA-48B7-9D59-C03471061A08}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Qt5152QWindowOwnDCIcon" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="MOZA Pit House 1.2.0.67" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="explorer" Owner="{18BFD079-FBA4-43BD-846A-2F1AC7E01FC6}">
+			<Child Name="wnd_" Owner="{20848110-17E8-49D5-8A1E-1CE75821C9A3}">
+				<Child Name="UIRibbonDockTop" Owner="{F0EE1119-234C-479D-B438-8C2A11D9880A}">
+					<Child Name="Ribbon" Owner="{37A23A93-012A-4D35-8783-E757392E1131}">
+						<Child Name="Ribbon" Owner="{59A08BC9-423B-427E-B34F-FF20560D9176}">
+							<Child Name="NUIPane" Owner="{BBCB1295-7811-4906-AD03-42DD7EE54ACD}">
+								<Child Name="NetUIHWND" Owner="{C813053B-2C09-40D3-B6B3-7A7CE3965C16}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="Item" Owner="{D9118416-3687-4BDE-A7D7-C117F06D9A62}">
+					<Child Name="DUIViewWndClassName" Owner="{D29840EE-B3D1-4CAA-A70B-C25825AC3209}">
+						<Child Name="Item" Owner="{4F08D81F-B12D-4D32-A3F5-F46CCCDAEBE2}">
+							<Child Name="CtrlNotifySink" Owner="{98608DA8-3692-411D-8604-A17A292065AA}">
+								<Child Name="ShellView" Owner="{E2D7D59C-4D07-41C9-9A3B-98D7F28E891F}">
+									<Child Name="Item" Owner="{CBDDEE50-6666-4202-A857-0568FC84E574}">
+										<Child Name="Item" Owner="{B2EF5DDB-81CD-4B15-BE2A-EDC4C4A35AF0}">
+											<Child Name="C_" Owner="{B2AF571D-568B-4946-A205-F554FA3C5419}">
+												<Child Name="Item" Owner="{7DDCF6AA-9CB9-4AC7-9F0A-06BB0180FD48}" />
+											</Child>
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="MOZA_Pit_House" Owner="{3A697682-AF64-49C9-9ED0-FB450EC56EB7}">
+			<Child Name="wndQt5152QWindowOwnDCIcon" Owner="{3697D180-C85B-4724-9FB8-4F7272EED3CF}" />
+			<Child Name="wndQt5152QWindowOwnDCIcon2" Owner="{050AEA92-E26E-46E6-9B30-A16B605284A6}" />
+		</Child>
+	</LogicalNodes>
+</Root>

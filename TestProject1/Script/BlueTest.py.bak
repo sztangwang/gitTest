@@ -1,0 +1,147 @@
+﻿import time
+import uiautomator2
+
+
+class TestBlue(object):
+    def setup_class(self):
+        """
+        前置条件
+        """
+        try:
+            self.device = uiautomator2.connect()  # 连接usb设备
+            print('手机usb设备连接成功')
+        except:
+            print('手机usb设备连接失败')
+        self.BLUE_NAME = 'MOZA R16-398D3BA2'  # 蓝牙设备名称
+
+    def teardown_class(self):
+        """
+        后置条件
+        用于断开蓝牙连接和关闭app
+        :return:
+        """
+        try:
+            print('点击断开连接......')
+            self.device(description="断开连接").click()
+        except:
+            print('usb手机设备连接失败,后置条件不测试')
+            return
+        for i in range(15):
+            if self.device.xpath("//*[@content-desc='跳过激活']").exists:
+                print('有弹出激活菜单，点击跳过激活.......')
+                self.device.xpath("//*[@content-desc='跳过激活']").click()
+                break
+            else:
+                time.sleep(1)
+        print('点击断开连接......')
+        self.device(description="断开连接").click()
+        self.device.app_stop('com.gudsen.mozapithouse')
+        print('测试结束完成')
+
+    def blue_connect(self):
+        """
+        连接 blue设备
+        """
+        print('启动app..........')
+        self.device.app_start('com.gudsen.mozapithouse', 'com.gudsen.mozapithouse.MainActivity')
+        time.sleep(2)
+        self.device.xpath("//*[@content-desc='连接设备']").click()
+        is_reconnect = True
+        for j in range(2):  # 蓝牙重连机制
+            if not is_reconnect:
+                break
+            for i in range(60):
+                tuple_coord = self.get_coord("//*[@content-desc='%s\n连接']" % self.BLUE_NAME)  # 获取xpath坐标位置
+                if tuple_coord:
+                    print('已找到蓝牙设备： %s,根据蓝牙名称获取蓝牙连接按钮的坐标并点击........' % self.BLUE_NAME)
+                    self.device.click(tuple_coord[0] + 400, tuple_coord[1])  # 加400的意思是表示连接按钮的坐标位置
+                    is_reconnect = False
+                    break
+                else:
+                    time.sleep(0.5)
+                    print('搜索蓝牙设备:%s..........' % self.BLUE_NAME)
+                if i == 59:
+                    print('测试失败，未搜索到蓝牙设备：%s' % self.BLUE_NAME)
+                    return
+
+            for i in range(20):  # 等待激活窗口
+                if self.device.xpath("//*[@content-desc='跳过激活']").exists:
+                    print('有弹出激活菜单，点击跳过激活.......')
+                    self.device.xpath("//*[@content-desc='跳过激活']").click()
+                    break
+                else:
+                    print('等待激活设备窗口')
+                    time.sleep(1)
+
+            if self.device.xpath("//*[@content-desc='进入赛车']").exists:
+                print('蓝牙设备连接成功')
+                break
+            else:
+                print('蓝牙:%s连接失败' % self.BLUE_NAME)
+
+    def blue_settings(self):
+        """
+        连接blue设备成功后进行参数设置test
+        :return:
+        """
+        self.device.xpath("//*[@content-desc='进入赛车']").click()
+        time.sleep(2)
+
+        content = "最大限位角\n最大限位角\n同步转向角\n90°\n2000°"
+        self.set_edit_text('1520', '1340', '//*[@content-desc="%s"]/android.widget.ImageView[1]' % content, content)
+
+        content = "最大转向角\n最大转向角\n90°\n2000°"
+        self.set_edit_text('760', '1340', '//*[@content-desc="%s"]/android.widget.ImageView[1]' % content, content)
+
+        content = "路感灵敏度\n路感灵敏度\n0\n10"
+        self.set_edit_text('3', '6', '//*[@content-desc="%s"]/android.widget.ImageView[1]' % content, content)
+
+        self.device.press('back')
+
+    def get_coord(self, xpath):
+        for elem in self.device.xpath(xpath).all():
+            return elem.center()
+
+    def set_edit_text(self, default_text, text, xpath, content):
+        """
+        用于设置编辑框数据参数
+        :param default_text: 默认值
+        :param text: 正常值
+        :param xpath: xpath路径
+        :param content 控件用于滚动内容
+        :return:
+        """
+        print('******************正在测试', xpath)
+        self.device(scrollable=True).scroll.to(description=content)
+        tuple_coord = self.get_coord(xpath)  # 获取xpath坐标位置
+        self.device.click(tuple_coord[0] + 630, tuple_coord[1])  # 点击编辑框
+        print('点击坐标:', tuple_coord)
+        self.device.send_keys(default_text, clear=True)  # 先设置为默认值
+        self.device.press('enter')
+        time.sleep(1)
+        self.device.press('back')  # 点击返回，目的是为了刷新，如果不刷新无法获取到最新的text内容，这样无法做判断
+        time.sleep(1)
+        self.device.xpath("//*[@content-desc='进入赛车']").click()
+        time.sleep(1)
+        self.device(scrollable=True).scroll.to(description=content)
+
+        tuple_coord = self.get_coord(xpath)  # 获取xpath坐标位置
+        self.device.click(tuple_coord[0] + 630, tuple_coord[1])  # 点击编辑框
+        self.device.send_keys(text, clear=True)  # 先设置为正常值
+        self.device.press('enter')
+
+        for i in range(5):
+            if self.device(text="%s, %s" % (int(text), int(default_text) * 100)).exists:
+                time.sleep(1)
+                print('参数设置失败')
+            else:
+                print('参数设置成功')
+                break
+
+
+if __name__ == '__main__':
+    test_blue = TestBlue()
+    test_blue.setup_class()  # 测试前置条件
+    test_blue.blue_connect()  # 蓝牙连接
+    test_blue.blue_settings()  # 参数设置
+    test_blue.teardown_class()  # 测试后置条件

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{E0D420A1-E1AE-437A-A0F0-F69313663093}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.MOZA_Pit_House" Data="61717A697000000001000000360400007801A593CB4EC2401486315C442258AA15E9054A0B054B6F904AB1F11289C195EEDCB9F52935F1D17EE70C0C94B0A978926FCEF53FCDB4E9E275562A709BB173C490D61C154C16315BF757C9EE39ED29F80B5975642A3804DA119A17F80FA967E339F13177BB789C0CB1BC0D907A56AE5AE494D1392B6232D030EE9CC3D56504BD168F6DA5C63DD57D763FF2A247F1E7C71BD776A4228897E41D615FDD403BB3647B8B24E61AD219520963B305B7ABC0D12438ED3ADBA1E1E7FB8BFBD0D6E05B6D9077D4064686CC67F57A816B0DA90C61B6BC8D07570D5EEE362B78BABB07E5D9D980EDA45C972A7C2EBE36C41AEE7B97A71B2F62314B8D80DD957222720C8EC8C9B34F0B433EE164EB7BF3CD634C87264767711E76E7AB885D6B83DEDCE673DF41C210FD6C2F0D87EC595568F28A9BB18D99D7CF8DD0A94C9FE521F69046A39D1AF569B767A97B75FA0754F69E0E81B4C254B9C676E447E87E016DA27491" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="49" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="206" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="46" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="120" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="48" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="285" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="52" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="371" />
+					</Parameters>
+					<ObjectSyntax LangId="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" Code="Aliases.MOZA_Pit_House.wndQt5152QWindowOwnDCIcon2" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{0B38A9CA-EA70-4958-908D-3296C3EB3CA0}" />
+</Root>
